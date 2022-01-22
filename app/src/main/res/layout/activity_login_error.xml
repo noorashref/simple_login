@@ -117,7 +117,7 @@
         android:id="@+id/tv_email3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/museosans_500"
         android:text="Create password"
         android:textColor="@color/white"
@@ -125,7 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_email" />
+        app:layout_constraintTop_toBottomOf="@+id/error_email" />
 
     <TextView
         android:id="@+id/textView4"
@@ -149,17 +149,16 @@
 
     <LinearLayout
         android:id="@+id/error_email"
+        android:visibility="gone"
         android:layout_width="327dp"
         android:layout_height="38dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
 
-        app:layout_constraintBottom_toTopOf="@+id/tv_email3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_email"
-        app:layout_constraintVertical_bias="0.571">
+        app:layout_constraintTop_toBottomOf="@+id/et_email">
 
         <TextView
             android:id="@+id/textView3"
