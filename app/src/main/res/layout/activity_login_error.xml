@@ -26,13 +26,14 @@
         android:id="@+id/et_password"
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:includeFontPadding="true"
         android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_email3" />
 
@@ -43,7 +44,7 @@
         android:layout_marginTop="15dp"
         android:ems="10"
         android:includeFontPadding="true"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName|textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +83,7 @@
         android:id="@+id/view"
         android:layout_width="411dp"
         android:layout_height="2dp"
-        android:background="#DD9832"
+        android:background="#ffffff"
         app:layout_constraintTop_toBottomOf="@+id/tv_create_an_account" />
 
     <TextView
@@ -117,7 +118,7 @@
         android:id="@+id/tv_email3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/museosans_500"
         android:text="Create password"
         android:textColor="@color/white"
